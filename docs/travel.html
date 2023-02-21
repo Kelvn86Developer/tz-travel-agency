@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../travelAgencyCSS/styling.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <title>TZ travel agency</title>
+    <script src="https://kit.fontawesome.com/524640606a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/524640606a.js" crossorigin="anonymous"></script>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<link
+rel="stylesheet"
+href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <span class="title">
+            TravelTZ
+        </span>
+        <nav class="navBar">
+          <a href="#home">Home</a>
+          <a href="#booking">Booking</a>
+          <a href="#packages">Packages</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#review">Review</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+            <i class="fa-solid fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here....">
+            <label for="search-bar" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+    </header>
+
+    <!-- Login form start  -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="" method="POST">
+            <h3>Login here</h3>
+            <input type="email" name="email" id="input-box" class="input-box" placeholder="enter your email">
+            <input type="password" name="password" id="input-box" class="input-box" placeholder="enter your password">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <button type="submit" class="btn" id="btn">Login now</button>
+            <p>Forget your password ? <a href="forget-password.html" class="click-here">Click here</a></p>
+            <p>Don't have an account? <a href="reg-form.html" class="click-here">Click here</a></p>
+            
+        </form>
+    </div>
+
+    <!-- Login form ends  -->
+    <!--home section begins-->
+
+<section class="home" id="home">
+
+    <div class="contents">
+        <h3>ADVENTURE IS WORTH WHILE</h3>
+        <p>Discover new places with us,TZ travel agent, adventure awaits</p>
+        <a href="#" class="btn">Discover more</a>
+    </div>
+   
+
+<div class="video-controls">
+    <span class="video-btn active" id="video-btn" data-src="../video/bd-video-1.mp4"></span>
+    <span class="video-btn" id="video-btn" data-src="../video/bd-video-2.mp4"></span>
+    <span class="video-btn" id="video-btn" data-src="../video/bd-video-3.mp4"></span>
+    <span class="video-btn" id="video-btn" data-src="../video/bg-video-4.mp4"></span>
+    <span class="video-btn" id="video-btn" data-src="../video/bg-video-5.mp4"></span>
+    <span class="video-btn" id="video-btn" data-src="../video/bg-video-6.mp4"></span>
+</div>
+<div class="video-container">
+    <video src="../video/bd-video-1.mp4" id="video-slider" autoplay muted loop></video>
+</div>
+
+</section>
+
+
+    <!--home section ends-->
+    <!-- Booking section begins-->
+<section class="booking" id="booking">
+    <h1 class="heading">
+        <span>B</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span id="space"> </span>
+        <span>H</span>
+        <span>E</span>
+        <span>R</span>
+        <span>E</span>
+       
+     </h1>
+ 
+     <div class="row">
+         <div class="img">
+             <img src="../images/travel.webp" alt="">
+         </div>
+        
+             <form action="" method="POST">
+                 <div class="input-box">
+                     <h3>Where to</h3>
+                     <input type="text" name="place-name" placeholder="Place name">
+                 </div>
+                 
+                 <div class="input-box">
+                     <h3>How many</h3>
+                     <input type="text" name="guest-number" placeholder="Number of guest">
+                 </div>
+                 
+                 <div class="input-box">
+                     <h3>Arrivals</h3>
+                     <input type="date" name="arrival-date">
+                 </div>
+                 
+                 <div class="input-box">
+                     <h3>Leaving</h3>
+                     <input type="date" name="leaving-date">
+                 </div>
+                 <div class="input-box">
+                     
+                     <input type="submit" name="submit" id="submit-btn" value="Book now" class="btn">
+                 </div>
+                 
+             </form>
+         
+     </div>
+</section>
+    <!--Booking section ends-->
+
+    <!-- package section starts-->
+<section id="packages" class="packages">
+    <h1 class="heading">
+        <span>P</span>
+        <span>A</span>
+        <span>C</span>
+        <span>k</span>
+        <span>A</span>
+        <span>G</span>
+        <span>E</span>
+        <span>S</span>
+       
+     </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="../images/attraction3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Bagamoyo</h3>
+                <p>Bagamoyo is the among of the best tourist attraction found in Tanzania, it is characterized with the past slave trade and a place where chiefs conducted their business </p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <div class="price">$90.00 <span>$120.00</span> </div>
+                <a href="#booking" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../images/attraction4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Tanga</h3>
+                <p>Bagamoyo is the among of the best tourist attraction found in Tanzania, it is characterized with the past slave trade and a place where chiefs conducted their business </p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <div class="price">$90.00 <span>$120.00</span> </div>
+                <a href="#booking" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../images/attraction5.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Dar-es-salaam</h3>
+                <p>Bagamoyo is the among of the best tourist attraction found in Tanzania, it is characterized with the past slave trade and a place where chiefs conducted their business </p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <div class="price">$90.00 <span>$120.00</span> </div>
+                <a href="#booking" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../images/attraction6.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Dar-es-salaam</h3>
+                <p>Bagamoyo is the among of the best tourist attraction found in Tanzania, it is characterized with the past slave trade and a place where chiefs conducted their business </p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <div class="price">$90.00 <span>$120.00</span> </div>
+                <a href="#booking" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../images/mbeya2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Mbeya</h3>
+                <p>Bagamoyo is the among of the best tourist attraction found in Tanzania, it is characterized with the past slave trade and a place where chiefs conducted their business </p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <div class="price">$90.00 <span>$120.00</span> </div>
+                <a href="#booking" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../images/ArushaCity.jpg" alt="">
+            <div class="content">
+                <h3><i class="fa-solid fa-location-dot"></i>Arusha</h3>
+                <p>Bagamoyo is the among of the best tourist attraction found in Tanzania, it is characterized with the past slave trade and a place where chiefs conducted their business </p>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <div class="price">$90.00 <span>$120.00</span> </div>
+                <a href="#booking" class="btn">Book now</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <!-- package section ends-->
+
+    <!--services starts-->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+       
+     </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fa-solid fa-hotel"></i>
+            <h3>Affordable hotels</h3>
+            <p>Hotels on our hand serve you with greater quality and with low price </p>
+          
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-bullhorn"></i>
+            <h3>Safety and guide</h3>
+            <p>Hotels on our hand serve you with greater quality and with low price </p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-utensils"></i>
+            <h3>Food and Drinks</h3>
+            <p>Hotels on our hand serve you with greater quality and with low price </p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-earth-asia"></i>
+            <h3>Around the world</h3>
+            <p>Hotels on our hand serve you with greater quality and with low price </p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-plane"></i>
+            <h3>Fastest travel</h3>
+            <p>Hotels on our hand serve you with greater quality and with low price </p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-person-hiking"></i>
+            <h3>Adventures</h3>
+            <p>Hotels on our hand serve you with greater quality and with low price </p>
+        </div>
+    </div>
+</section>
+<!--services ends-->
+
+<!--Gallery starts-->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+        <span><i class="fa-solid fa-camera"></i></span>
+       
+     </h1>
+     <div class="box-container">
+       <div class="box">
+           <img id="img-1" src="../images/gallery/Amaizing-p1.jpg" alt="">
+           <div class="content">
+            <h3>Mwanza</h3>
+            <p>waterfall found in Mwanza, with a beautiful view from the mountain</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-2" src="../images/gallery/amaizing-p2.jpg" alt="">
+           <div class="content">
+            <h3>Bagamoyo</h3>
+            <p>waterfall found in Bagamoyo, a place where most tourist admires and visit frequent</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-3" src="../images/gallery/amaizing-p3.jpg" alt="">
+           <div class="content">
+            <h3>Dar-es-salaam</h3>
+            <p>The beautiful and the best business city found in Tanzania, visit Dar-es-salaam where transport of its citizen is well assured</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-4" src="../images/gallery/amaizing-p4.jpg" alt="">
+           <div class="content">
+            <h3>Dar-es-salaam</h3>
+            <p>In Dar-es-salaam there is recreational areas for you and your children, don't deny your children enjoyment</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-5" src="../images/gallery/Amaizing-p5.jpg" alt="">
+           <div class="content">
+            <h3>Best restaurant</h3>
+            <p>We assure you to see and be taken to best restaurant found all over Tanzania country</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-6" src="../images/gallery/amaizing-p6.jpg" alt="">
+           <div class="content">
+            <h3>Hotels five stars</h3>
+            <p>All the hostel in our list have a good view, best food, and drinks</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-7" src="../images/gallery/amaizing-p7.webp" alt="">
+           <div class="content">
+            <h3>Best Beach</h3>
+            <p>We can take you all over best beaches in best towns in Tanzania</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-8" src="../images/gallery/amaizing-p8.jpg" alt="">
+           <div class="content">
+            <h3>Flyover in DSM</h3>
+            <p>Best routes found in Dar-es-salaam with best view from the top </p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-9" src="../images/gallery/amaizing-p9.jpg" alt="">
+           <div class="content">
+            <h3>Iringa</h3>
+            <p>Good and attractive waterfall found in Iringa Tanzania with a beautiful view from the top and bottom</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-10" src="../images/gallery/bagaMoyo.jpg" alt="">
+           <div class="content">
+            <h3>Bagamoyo</h3>
+            <p>Good looking hotels rated five stars found in Bagamoyo with assured security and quality accomodations</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-11" src="../images/gallery/dodoma.jpg" alt="">
+           <div class="content">
+            <h3>Dodoma</h3>
+            <p>long time made statue to memorize the presences of the late Julius Kambarage Nyerere found in Dodoma Tanzania</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-12" src="../images/gallery/hotel3.jpg" alt="">
+           <div class="content">
+            <h3>Mwanza</h3>
+            <p>Best hotel and beach resort with gurantied security and quality services to support the luxiury living</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-13" src="../images/gallery/hotel4.jpg" alt="">
+           <div class="content">
+            <h3>Morogoro</h3>
+            <p>In Morogoro there is best hotel along the beach with  best view and quality services</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+       <div class="box">
+           <img id="img-14" src="../images/gallery/tanga.jpg" alt="">
+           <div class="content">
+            <h3>Mbeya</h3>
+            <p>Among of the unique place found Mbeya Tanzania with best view and many attractive places</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+         </div>
+       </div>
+     </div>
+      
+</section>
+<!--Gallery ends-->
+
+<!--Review starts-->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>R</span>
+        <span>E</span>
+        <span>V</span>
+        <span>I</span>
+        <span>E</span>
+        <span>W</span>
+      </h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Bar🅰️Ka🦛 20220318_165123.jpg" alt="">
+                    <h3>Baraka Mpenja</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Lizz🅰️h🏮 20220318_165827.jpg" alt="">
+                    <h3>Elizabeth Queen</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Junior 20220318_165158.jpg" alt="">
+                    <h3>Junior the Baller</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Nick Nex🈵 20220318_165857.jpg" alt="">
+                    <h3>Lovenes Minaj</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/IMG-20220318-WA0005.jpg" alt="">
+                    <h3>Esther Beatrice</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Licioz_outfit 🛍️ 20220318_165103.jpg" alt="">
+                    <h3>Elijah Ondijo</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+
+                    <img src="../images/review/Zai👸 20220318_170025.jpg" alt="">
+                    <h3>Birdness Zainab</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Princ 📸 20220318_165951.jpg" alt="">
+                    <h3>Big Prince</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/calister.jpg" alt="">
+                    <h3>Calister Hertness</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Bryson 🎯 20220318_165137.jpg" alt="">
+                    <h3>Bryson Small</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/nice.jpg" alt="">
+                    <h3>Niceness Bossy</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/pius.jpg" alt="">
+                    <h3>Mr Dremour</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/M🅰️yr🅰️h 20220318_165131.jpg" alt="">
+                    <h3>Lady Mayrah </h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="../images/review/Big 🏋🏾‍♂️ M🅰️n 20220318_165112.jpg" alt="">
+                    <h3>Big man Frank</h3>
+                    <p>My adventure with travelTZ was funny and safe ,,i did enjoy a lot.I rate  it </p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Review ends-->
+<!--Contact starts-->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+      </h1>
+      <div class="row">
+        <div class="img">
+            <img src="../images/vector.png" alt="">
+        </div>
+        <form action="" method="POST">
+            <div class="input-box">
+                <input type="text" name="cont-name" placeholder="name">
+                <input type="email" name="cont-email" placeholder="email">
+            </div>
+            <div class="input-box">
+                <input type="number" name="cont-number" placeholder="phone number">
+                <input type="text" name="cont-subject" placeholder="subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" name="submit" class="btn" value="send message">
+        </form>
+      </div>
+ 
+</section>
+<!--Contact ends-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>About us</h3>
+            <p>TravelTZ is a website where you can see all available most attractive and visited places in Tanzania, it connect you with all the places you want to visit and also hotels for accomodations
+                it offer you a safe and trusted transportation throughout the visiting ceremony.
+            </p>
+        </div>
+        <div class="box">
+            <h3>Branch locations</h3>
+            <a href="#">Mbezi</a>
+            <a href="#">Posta</a>
+            <a href="#">Kigamboni</a>
+            <a href="#">Temeke</a>
+            <a href="#">Mbagara</a>
+            <a href="#">Mlandizi</a>
+        </div>
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#home">Home</a>
+            <a href="#booking">Booking</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#home">Facebook</a>
+            <a href="#booking">Instagram</a>
+            <a href="#packages">Youtube</a>
+            <a href="#services">Twitter</a>
+            <a href="#gallery">LikedIn</a>
+            
+        </div>
+      
+    </div>
+    <h1 class="credits">
+        created by <span>KD8_developer</span> | ALL rights reserved
+    </h1>
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../Script/travelScript.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
